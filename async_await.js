@@ -1,4 +1,13 @@
-
+/**
+ * Async keyword is a reserve keyword in js which is used to make a function asynchorous
+ * it behaves differently then normal function as it alsways returns promise
+ * we can use await inside async
+ * 
+ * Note:-
+ * js engine suspend the current execution context and move it to some where else when it encounters await
+ * and return back and continue executing where it left.
+ * 
+ */
 
 
 //they will be registered as they are in top levels // so if we use it with function it will wait 15 seconds
